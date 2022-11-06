@@ -1,0 +1,106 @@
+<!doctype HTML>
+
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Structure Media Query</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="css/structMediaQuery.css"/>
+</head>
+	
+<body>
+	
+<div class="global">
+	<header>
+		<img src="banner.jpg" alt="banner" width="100%"/>
+	</header>
+
+	<nav class="topnav" id="myTopnav">
+		<a href="#"><i class="fa-solid fa-house"></i> Home</a>
+		<a href="#">Service</a>
+		<a href="#">Portfolio</a>
+		<a href="#">Blog</a>
+		<a href="#">Contact</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    	<i class="fa fa-bars"></i></a>
+	</nav>
+	
+	<div class="image__fixed"></div>
+	
+	<main>
+		<section class="card">
+			<div class="card__contenu">
+			  <h2 class="card__contenu--titre2">Titre</h2>
+			  <p class="card__contenu--paragraphe">
+				le corbeau et le renard, 
+				  maître corbeau sur un arbre perché
+				  tenant en son bec un fromage.
+
+				  Maître Renard par ou à l'odeur alléchée
+				  tenant ainsi ces paroles
+				</p>
+				<div class ="card__contenu--bouton">
+					<button>Prime</button>
+					<button>Second</button>
+				</div>
+
+			</div>
+
+			<div class="card__contenu">
+			  <h2 class="card__contenu--titre2">Titre</h2>
+				<figure class="card__contenu--paralala">
+					<figcaption>Citrouille, qui te donne la trouille</figcaption>
+				</figure>
+			  <p class="card__contenu--paragraphe">
+
+				  le corbeau et le renard, 
+				  maître corbeau sur un arbre perché
+				  tenant en son bec un fromage.
+
+				  Maître Renard par ou à l'odeur alléchée
+				  tenant ainsi ces paroles
+
+			</p>
+				<div class ="card__contenu--bouton">
+					<button>Prime</button>
+					<button>Second</button>
+				</div>
+
+			</div>
+
+			<div class="card__contenu">
+			  <h2 class="card__contenu--titre2">Titre</h2>
+			  <p class="card__contenu--paragraphe">
+				le corbeau et le renard, 
+				  maître corbeau sur un arbre perché
+				  tenant en son bec un fromage.
+
+				  Maître Renard par ou à l'odeur alléchée
+				  tenant ainsi ces paroles
+				</p>
+				<div class ="card__contenu--bouton">
+					<button>Prime</button>
+					<button>Second</button>
+				</div>
+
+			</div>
+		</section>
+	</main>
+
+	<footer></footer>
+</div>
+	
+<script>
+	<!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+	function myFunction(){
+	  var x = document.getElementById("myTopnav");
+	  if(x.className === "topnav"){
+		x.className += " responsive";
+	  } else{
+		x.className = "topnav";
+	  }
+	} 
+	
+</script>
+</body>
+</html>
